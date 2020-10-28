@@ -1,0 +1,112 @@
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #bbb;
+  text-decoration: none;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Kenyan Coffee";
+}
+
+footer {
+  padding: 20%;
+  text-align: center;
+}
+
+.carousel-img {
+  width: 100%;
+}
+
+.carousel-item {
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+.carousel-item-column {
+  margin: 5% auto;
+  text-align: justify;
+  width: 80%;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.logo {
+  width: 100px;
+}
+
+.navbar {
+  background-color: #000;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.title {
+  background-image: url("../img/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10% 5%;
+}
+
+.title-box {
+  background-color: #000;
+  line-height: 1;
+  opacity: 0.8;
+  padding: 5%;
+  text-align: center;
+}
+
+.title-box .logo {
+  margin-bottom: 10%;
+}
+
+.title-welcome {
+  font-size: 1.5rem;
+}
+
+@font-face {
+  font-family: "Kenyan Coffee";
+  src: url("../fonts/KenyanCoffee.woff") format("woff");
+}
+
+@media (min-width: 768px) {
+
+  .title-box {
+    margin: 15% 5%;
+    position: absolute;
+    top: 0;
+  }
+
+  .title {
+    padding-top: 40%;
+  }
+
+  .carousel-item-column {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+
+  .carousel-item {
+    padding: 5% 10%;
+  }
+
+  footer {
+    padding: 10%;
+  }
+
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: 1.5rem;
+  }
+}
